@@ -10,12 +10,35 @@ body {
   width: 100%;
 }
 body {
-  background-color: grey;
+  display: grid;
 }
 .headerlinks {
   display: flex;
   columns: 2;
   background-color: cadetblue;
+}
+.rightside {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin: 5px;
+  text-decoration: underline;
+  border: 5px;
+  border-color: black;
+}
+.leftside {
+  display: flex;
+  padding: 10px;
+  align-items: end;
+  margin: 5px;
+  text-decoration: underline;
+  border: 5px;
+  border-color: black;
+}
+aside {
+  background-color: cadetblue;
+  border-radius: 2px;
+  border-color: black;
 }
 .logo {
   font-size: larger;
@@ -24,4 +47,16 @@ body {
 }
 footer {
   background-color: cadetblue;
+}
+div {
+  grid-template-columns: auto;
+}
+.sales {
+  grid-column: 3;
+}
+.aboutus {
+  grid-column: 2;
+}
+.customercare {
+  grid-column: 1;
 }
